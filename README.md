@@ -8,6 +8,7 @@ Projeto desenvolvido com o curso de JavaScript da Alura, no qual o usuário pode
 
 - `Adicionar peças ao robô`: ao clicar no botão "+" ao lado da peça desejada, é possível definir a quantidade de peças a ser acrescentada.
 - `Diminuir peças do robô`: ao clicar no botão "-" ao lado da peça desejada, é possível definir a quantidade de peças a ser diminuída.
+
 ![apresentacao-alura-robotron1024-min](https://github.com/CamilaSah/alura-robotron/assets/128820692/396c4425-9aa4-46f7-91c6-47bc72ebf5f2)
 
 
