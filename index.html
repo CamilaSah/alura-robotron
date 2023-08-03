@@ -16,7 +16,21 @@
 <body>
     <main>
         <section class="robotron">
-            <img class="robo" src="img/Robotron 2000 - Branco.png" alt="Robotron" id="robotron">
+            <div class="robotron-color-select">
+                <label for="robotron-select">Escolha a cor do seu Robotron:
+                    <select name="robotrons" id="robotron-select">
+                        <option value="" data-cor="">--Por favor escolha uma cor--</option>
+                        <option value="amarelo" data-cor="amarelo">Amarelo</option>
+                        <option value="branco" data-cor="branco">Branco</option>
+                        <option value="preto" data-cor="preto">Preto</option>
+                        <option value="rosa" data-cor="rosa">Rosa</option>
+                        <option value="vermelho" data-cor="vermelho">Vermelho</option>
+                    </select>
+                </label>
+            </div>
+            <div id="imagens-robo">
+                <img class="robo" src="img/Robotron 2000 - amarelo.png" alt="Robotron" id="robotron">
+            </div>
             <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
         </section>
 
@@ -99,6 +113,7 @@
             </form>
         </section>
     </main>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script>;
+    <script src="js/images.js"></script>;
 </body>
 </html>

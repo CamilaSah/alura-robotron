@@ -37,11 +37,29 @@ main {
     position: relative;
 }
 
+.robotron-color-select {
+    position: relative;
+    top: -80px;
+}
+
+label {
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5rem;
+    padding-right: 10px;
+    position: relative;
+}
+
+select {
+    font-size: 1.2rem;
+    padding: 2px 5px;
+}
+
+
 .robo {
-    height: 110%;
+    height: 100%;
     z-index: 1;
     position: absolute;
-    left: -20%;
+    left: -10%;
     top: -5%;
 }
 

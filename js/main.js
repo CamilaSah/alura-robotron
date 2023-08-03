@@ -1,6 +1,5 @@
 const controle = document.querySelectorAll("[data-controle]");
 const estatisticas = document.querySelectorAll("[data-estatistica]");
-console.log(estatisticas);
 
 const pecas = {
     "bracos": {
@@ -59,3 +58,10 @@ function atualizaEstatísticas(peca) {
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica];
     })
 }
+
+const elementoSelecionado = document.querySelector("#robotron-select");
+
+elementoSelecionado.addEventListener("change", (evento) => {
+    document.getElementById("robotron").src = `img/Robotron 2000 - ${evento.target.value}.png`;
+})
+
