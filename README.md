@@ -24,7 +24,6 @@ Técnicas utilizadas:
 - ``Função querySelectorAll()``: retorna uma lista (NodeList) com todos os elementos do seletor informado evitando a repetição de código.
 - ``Função addEventListener()``: permitiu que fossem configuradas funções a serem chamadas quando o usuário clicasse em um botão.
 - ``Função parseInt()``: analisa um argumento string e retorna um inteiro.
-- ``Evento change``: este evento é disparado para o elemento <select> quando o usuário modifica o valor do elemento, ao mudar a cor do robô.
 - ``DOM``: manipulação de elementos no DOM.
 - ``Arrays``: como manipular arrays utilizando o método forEach().
 - ``Arrow functions``: sintaxe mais curta quando comparada a uma expressão de função para declarar a função que não será nomeada novamente.
@@ -38,6 +37,7 @@ Técnicas utilizadas:
 - ``element.innerText``: esta propriedade permite inserir textos no HTML.
 - ``element.textContent``: esta propriedade retorna o conteúdo de texto de um elemento.
 - ``Tag <select>``: representa um controle que fornece um menu de opções, no caso, o menu com as opções de cores do robô.
+- ``Evento change``: este evento é disparado para o elemento `<select>` quando o usuário modifica o valor do elemento, ao mudar a cor do robô.
 
 Tecnologias e ferramentas utilizadas:
 - ``Visual Studio Code``: editor de código.
