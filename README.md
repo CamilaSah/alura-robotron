@@ -1,16 +1,16 @@
 ![Front-end-JavaScript manipulando o dom](https://github.com/CamilaSah/alura-robotron/assets/128820692/093dd1a9-8ba7-43ae-8b7c-5cffa35da9f4)
-![Static Badge](https://img.shields.io/badge/Status-Em%20andamento-%2391DCFF)
+![Static Badge](https://img.shields.io/badge/Status-Conclu%C3%ADdo-%2391DCFF)
 
 # Robotron 2000
-Projeto desenvolvido com o curso de JavaScript da Alura, no qual o usuário pode montar o seu robô. Para montar o robô, o usuário adiciona peças na engrenagem que compõe o robô e visualiza as estatísticas atualizadas dinamicamente. O código HTML e o CSS desse projeto já estavam prontos, para focar no JavaScript.
+Projeto desenvolvido com o curso de JavaScript da Alura, no qual o usuário pode montar o seu robô. Para montar o robô, o usuário adiciona peças na engrenagem que compõe o robô e visualiza as estatísticas atualizadas dinamicamente. O código HTML e o CSS desse projeto já estavam prontos, para focar no JavaScript. Como desafio, fiz a funcionalidade de trocar a cor do robô.
 
 ## :hammer: Funcionalidades do projeto
 
 - `Adicionar peças ao robô`: ao clicar no botão "+" ao lado da peça desejada, é possível definir a quantidade de peças a ser acrescentada.
 - `Diminuir peças do robô`: ao clicar no botão "-" ao lado da peça desejada, é possível definir a quantidade de peças a ser diminuída.
+- `Trocar a cor do robô`: ao clicar na caixa de seleção, é possível escolher a cor desejada do robô.
 
-![apresentacao-alura-robotron1024-min](https://github.com/CamilaSah/alura-robotron/assets/128820692/396c4425-9aa4-46f7-91c6-47bc72ebf5f2)
-
+![apresentacao-alura-robotron840-min](https://github.com/CamilaSah/alura-robotron/assets/128820692/932d6cc2-9654-4f40-96f0-00d493cacc43)
 
 ## 📁 Acesso ao projeto
 
@@ -19,21 +19,25 @@ Você pode acessar o projeto clicando [aqui](https://alura-robotron-2000-pearl.v
 ## ✔️ Técnicas e tecnologias utilizadas
 
 Técnicas utilizadas:
-- ``Função querySelector()``: faz uma busca do elemento pelo seletor (elemento, classe e id)
+- ``Função querySelector()``: faz uma busca do elemento pelo seletor (elemento, classe e ID).
+- ``Função getElementById()``: faz uma busca do elemento pelo ID.
 - ``Função querySelectorAll()``: retorna uma lista (NodeList) com todos os elementos do seletor informado evitando a repetição de código.
 - ``Função addEventListener()``: permitiu que fossem configuradas funções a serem chamadas quando o usuário clicasse em um botão.
-- ``Função parseInt()``: analisa um argumento string e retorna um inteiro
-- ``DOM``: manipulação de elementos no DOM
+- ``Função parseInt()``: analisa um argumento string e retorna um inteiro.
+- ``Evento change``: este evento é disparado para o elemento <select> quando o usuário modifica o valor do elemento, ao mudar a cor do robô.
+- ``DOM``: manipulação de elementos no DOM.
 - ``Arrays``: como manipular arrays utilizando o método forEach().
 - ``Arrow functions``: sintaxe mais curta quando comparada a uma expressão de função para declarar a função que não será nomeada novamente.
-- ``Objetos``: o que são, como acessar propriedades, como editar e navegar objetos e como utilizar o this para acessar o objeto window
+- ``Objetos``: o que são, como acessar propriedades, como editar e navegar objetos e como utilizar o this para acessar o objeto window.
 - ``Comportamento de hoisting``: comportamento de mover as declarações para o topo.
-- ``Data attributes``: o que são e como utilizar
+- ``Data attributes``: o que são e como utilizar.
 - ``Método splice()``: altera o conteúdo de uma lista, adicionando novos elementos enquanto remove elementos antigos.
-- ``Propriedade parentNode``: retornou o nó parente
-- ``Propriedade dataset``: ler os valores dos atributos
+- ``Template string (${})``: foi utilizado para mudar o texto da fonte da imagem de forma dinâmica.
+- ``Propriedade parentNode``: retornou o nó parente.
+- ``Propriedade dataset``: ler os valores dos atributos.
 - ``element.innerText``: esta propriedade permite inserir textos no HTML.
 - ``element.textContent``: esta propriedade retorna o conteúdo de texto de um elemento.
+- ``Tag <select>``: representa um controle que fornece um menu de opções, no caso, o menu com as opções de cores do robô.
 
 Tecnologias e ferramentas utilizadas:
 - ``Visual Studio Code``: editor de código.
